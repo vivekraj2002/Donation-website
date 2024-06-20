@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import validator from "validator";
 
-const donationSchema = new mongoose.Schema({
+const volunteerschema = new mongoose.Schema({
   name: {
     type: String,
     required: [true, "Name is required"],
@@ -35,4 +35,4 @@ const donationSchema = new mongoose.Schema({
   },
 });
 
-export const donation = mongoose.model("donation", donationSchema);
+export const volunteer = mongoose.model("volunteer", volunteerSchema);

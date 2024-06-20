@@ -41,9 +41,9 @@
 
 // v.2
 
-import { donation } from "../models/volunteer.js";
+import { volunteer } from "../models/volunteer.js";
 
-export const postDonate = async (req, res, next) => {
+export const checkout = async (req, res, next) => {
   const { name, email, phone, amount, reference,message } = req.body;
   if (!name || !email || !phone || !amount || !reference || !message) {
     return res.status(400).json({
@@ -52,7 +52,7 @@ export const postDonate = async (req, res, next) => {
     });
   }
   try {
-      await donation.create({ name, email, phone, amount, reference, message });
+      await volunteer.create({ name, email, phone, amount, reference, message });
     return res.status(201).json({
       success: true,
       message: "Messsage Sent Successfully!",

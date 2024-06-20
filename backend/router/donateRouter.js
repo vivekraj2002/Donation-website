@@ -1,8 +1,8 @@
 import express from "express";
-import { postDonate } from "../controllers/DonateController.js";
+import { checkout } from "../controllers/checkout.js";
 
 const router = express.Router();
 
-router.post("/send", postDonate);
+router.post("/checkout", checkout);
 
 export default router;
