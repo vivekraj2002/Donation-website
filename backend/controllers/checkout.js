@@ -46,7 +46,7 @@ import { volunteer } from "../models/volunteer.js";
 export const checkout = async (req, res, next) => {
   const { name, email, phone, amount, reference,message } = req.body;
   if (!name || !email || !phone || !amount || !reference || !message) {
-    return res.status(400).json({
+    return res.status(4000).json({
       success: false,
       message: "Please Fill Full Form!",
     });
@@ -63,7 +63,7 @@ export const checkout = async (req, res, next) => {
         (err) => err.message
       );
       const errorMessage = validationErrors.join(", ");
-      return res.status(400).json({
+      return res.status(4000).json({
         success: false,
         message: errorMessage,
       });

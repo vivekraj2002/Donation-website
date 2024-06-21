@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import validator from "validator";
 
-const volunteerschema = new mongoose.Schema({
+const volunteerSchema = new mongoose.Schema({
   name: {
     type: String,
     required: [true, "Name is required"],

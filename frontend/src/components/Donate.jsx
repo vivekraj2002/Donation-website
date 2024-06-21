@@ -19,7 +19,7 @@ const Donate = () => {
 
       // Send POST request to your backend
       const response = await axios.post(
-        "http://localhost:4000/api/v1/volunteer/send",
+        "http://localhost:4000/api/v1/volunteer/checkout",
         {
           name,
           email,
@@ -45,9 +45,7 @@ const Donate = () => {
     } catch (error) {
       console.error(error);
       toast.error(error.response.data.Donatecontroller);
-    } finally {
-      //setDisableBtn(false); // Enable the button again after request completes (whether success or error)
-    }
+    } 
   };
 
   return (
@@ -165,8 +163,7 @@ const Donate = () => {
           <button
             type="submit"
             className="btn"
-            // disabled={disableBtn}
-            style={{
+              style={{
               padding: "10px 20px",
               fontSize: "16px",
               border: "none",
@@ -176,7 +173,8 @@ const Donate = () => {
               cursor: "pointer",
             }}
           >
-            Donate {amount ? `₹${amount}` : "₹0"}
+            {/* Donate {amount ? `₹${amount}` : "₹0"} */}
+            Donate 
           </button>
         </form>
       </div>
@@ -184,7 +182,7 @@ const Donate = () => {
   );
 };
 
-export default Donate;
+export default Donate
 
 
 
