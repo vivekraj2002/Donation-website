@@ -32,11 +32,7 @@ const Members = () => {
       image: "/m8.jpg",
       title: "Vivek raj",
     },
-    {
-      id: 7,
-      image: "/m7.jpg",
-      title: "Jhon Wick",
-    },
+    
   ];
   return (
     <>

@@ -60,7 +60,7 @@ const Footer = () => {
             </Link>
           </li>
           <li>
-            <Link to={""}>
+            <Link to={"https://www.instagram.com/_vivek_raj4005/"}>
               {" "}
               <span>
                 <FaSquareInstagram />

@@ -10,8 +10,8 @@ const volunteerSchema = new mongoose.Schema({
   },
   email: {
     type: String,
-    required: [true, "Email is requireds"],
-    validate: [validator.isEmail, "Please enter a valid email address"],
+    required: [true, "Email is required"],
+    validate: [validator.isEmail, "Please include @ in  email address"],
   },
   phone: {
     type: String,

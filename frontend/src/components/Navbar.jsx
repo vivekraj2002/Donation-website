@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { FaBitcoin, FaPaypal, FaYoutube } from "react-icons/fa6";
+import { FaBitcoin, FaLinkedin, FaPaypal, FaYoutube } from "react-icons/fa6";
 import { FaGithubSquare } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -30,17 +30,25 @@ const Navbar = () => {
           </ul>
           <ul>
             <li>
-              <FaPaypal />
+            <Link to={"https://www.instagram.com/_vivek_raj4005/"}>
+              
+              <FaLinkedin/>
+              </Link>
             </li>
             <li>
               <FaYoutube />
             </li>
             <li>
+            <Link to={"https://github.com/vivekraj2002"}>
               <FaGithubSquare />
+              </Link>
             </li>
             <li>
+            <Link to={"https://www.instagram.com/_vivek_raj4005/"}>
               <BsInstagram />
+              </Link>
             </li>
+            
           </ul>
         </div>
         <GiHamburgerMenu className="hamburger" onClick={() => setShow(!show)} />

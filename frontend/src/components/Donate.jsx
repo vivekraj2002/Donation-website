@@ -41,11 +41,11 @@ const Donate = () => {
       setAmount("");
       setReference("");
       setMessage("");
-      toast.success(response.data.Donatecontroller);
+      toast.success(response.data.message);
     } catch (error) {
-      console.error(error);
-      toast.error(error.response.data.Donatecontroller);
-    } 
+      console.error(error.response.data.message);
+      toast.error(error.response.data.message);
+    }
   };
 
   return (
@@ -173,8 +173,8 @@ const Donate = () => {
               cursor: "pointer",
             }}
           >
-            {/* Donate {amount ? `₹${amount}` : "₹0"} */}
-            Donate 
+            Donate {amount? `₹${amount}` : "₹0"} 
+            
           </button>
         </form>
       </div>
