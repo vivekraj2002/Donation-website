@@ -33,6 +33,11 @@ const volunteerSchema = new mongoose.Schema({
     minlength: [12, "reference number must be exactly 12 digits"],
     maxlength: [12, "reference number must be exactly 12 digits"],
   },
+  // file: {
+  //   type: String,
+  //   required: [true, "file is required"],
+
+  // }
 });
 
 export const volunteer = mongoose.model("volunteer", volunteerSchema);

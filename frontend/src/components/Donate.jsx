@@ -90,7 +90,7 @@ const Donate = () => {
               }}
             />
             <input
-              type="text"
+              type="number"
               value={reference}
               placeholder="Enter Reference Number"
               onChange={(e) => setReference(e.target.value)}
@@ -182,103 +182,10 @@ const Donate = () => {
   );
 };
 
-export default Donate
-
-
-
-// import React, { useState } from "react";
-// import axios from "axios";
-// import { toast } from "react-toastify";
-
-// const Contact = () => {
-// const [name, setName] = useState("");
-// const [email, setEmail] = useState("");
-// const [phone, setPhone] = useState("");
-// const [amount, setAmount] = useState("");
-// const [refrence, setRefrence] = useState("");
-// const [message, setMessage] = useState("");
+export default Donate;
 
 
 
 
-// const handleSendMessage = async (e) => {
-// e.preventDefault();
-// await axios
-// .post(
-// "http://localhost:4000/api/v1/message/send",
-// { name, email,message, amount, refrence },
-// {
-// withCredentials: true,
-// headers: { "Content-Type": "application/json" },
-// }
-// )
-// .then((res) => {
-// setName("");
-// setEmail("");
-// setPhone("");
-// setAmount("");
-// setRefrence("");
-// setMessage("");
-// toast.success(res.data.message);
-// })
-// .catch((error) => {
-// console.error(error);
-// toast.error(error.response.data.message);
-// });
-// };
 
-// return (
-// <section className="contact">
-// <div className="container">
-// <div className="banner">
-// <form onSubmit={handleSendMessage}>
-// <h2>Show your love for Poors</h2>
-// <div>
-// <input
-// type="text"
-// value={name}
-// placeholder="Your Name"
-// onChange={(e) => setName(e.target.value)}
-// />
-// <input
-// type="email"
-// value={email}
-// placeholder="Your Email"
-// onChange={(e) => setEmail(e.target.value)}
-// />
-// <input
-// type="number"
-// value={phone}
-// placeholder="Phone Number"
-// onChange={(e) => setPhone(e.target.value)}
-// />
-// <input
-// type="number"
-// value={amount}
-// placeholder="enter amount"
-// onChange={(e) => setAmount(e.target.value)}
-// />
-// <input
-// type="number"
-// value={refrence}
-// placeholder="enter reference id"
-// onChange={(e) => setRefrence(e.target.value)}
-// />
-// </div>
-// <textarea
-// rows="10"
-// value={message}
-// placeholder="Message"
-// onChange={(e) => setMessage(e.target.value)}
-// />
-// <button className="btn" type="submit">
-// Donate
-// </button>
-// </form>
-// </div>
-// </div>
-// </section>
-// );
-// };
 
-// export default Contact;

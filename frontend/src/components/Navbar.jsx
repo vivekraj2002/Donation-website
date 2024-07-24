@@ -30,21 +30,21 @@ const Navbar = () => {
           </ul>
           <ul>
             <li>
-            <Link to={"https://www.instagram.com/_vivek_raj4005/"}>
+            <Link to="https://www.linkedin.com/company/keenable/mycompany/" target="_blank" rel="noopener noreferrer">
               
               <FaLinkedin/>
-              </Link>
+              </Link >
             </li>
             <li>
               <FaYoutube />
             </li>
             <li>
-            <Link to={"https://github.com/vivekraj2002"}>
+            <Link to="https://github.com/vivekraj2002" target="_blank" rel="noopener noreferrer">
               <FaGithubSquare />
               </Link>
             </li>
             <li>
-            <Link to={"https://www.instagram.com/_vivek_raj4005/"}>
+            <Link to="https://www.instagram.com/_vivek_raj4005/" target="_blank" rel="noopener noreferrer">
               <BsInstagram />
               </Link>
             </li>

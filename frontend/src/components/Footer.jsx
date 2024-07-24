@@ -60,7 +60,7 @@ const Footer = () => {
             </Link>
           </li>
           <li>
-            <Link to={"https://www.instagram.com/_vivek_raj4005/"}>
+            <Link to="https://www.instagram.com/_vivek_raj4005/"target="_blank" rel="noopener noreferrer">
               {" "}
               <span>
                 <FaSquareInstagram />
@@ -69,7 +69,7 @@ const Footer = () => {
             </Link>
           </li>
           <li>
-            <Link to={"https://in.linkedin.com/company/keenable/"}>
+            <Link to="https://in.linkedin.com/company/keenable/"target="_blank" rel="noopener noreferrer">
               {" "}
               <span>
               <FaLinkedin />

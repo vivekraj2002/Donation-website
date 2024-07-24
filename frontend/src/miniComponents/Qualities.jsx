@@ -7,7 +7,7 @@ const Qualities = () => {
       image: "/community.png",
       title: "COMMUNITY DEVELOPMENT",
       description:
-        "Community development is a practice-based profession and an academic discipline that promotes participative democracy, sustainable development, rights, equality, economic opportunity and social justice, through the organization, education and empowerment of people within their communities, whether these be of locality, identity or interest, in urban and rural settings",
+        "It is not how much we give but how much love we put into giving. For it is in giving that we receive. We make a living by what we get. We make a life by what we give",
     },
     // {
     //   id: 2,
