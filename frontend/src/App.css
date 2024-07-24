@@ -11,11 +11,19 @@
 }
 .btn {
   background: #facc15;
-  color: #fff;
+  color: black;
   width: 100%;
   border: none;
   padding: 16px;
 }
+
+/* Example of responsive design */
+@media (max-width: 600px) {
+  .form-container {
+    padding: 10px;
+  }
+}
+
 
 /********************************ABOUT COMPONENT********************************************/
 .about {
@@ -367,7 +375,7 @@ footer div ul a span {
   flex: 1;
 }
 .navbar .logo img {
-  width: 250px;
+  width: 350px;
 }
 .navbar .links {
   flex: 2;
@@ -383,13 +391,14 @@ footer div ul a span {
   list-style-type: none;
 }
 .navbar .links ul li a {
+  font-size: 30px;
   text-decoration: none;
   display: flex;
   color: #444;
   transition: 0.3s;
 }
 .navbar .links ul li a:hover {
-  color: #facc15;
+  color: red;
   transition: 0.3s;
 }
 .navbar .links ul:last-child {
@@ -402,7 +411,7 @@ footer div ul a span {
   justify-content: center;
   align-items: center;
   border-radius: 100%;
-  background: #facc15;
+  background: white;
   transition: 0.3s;
 }
 .navbar .links ul:last-child li:hover {
@@ -410,13 +419,13 @@ footer div ul a span {
   transition: 0.3s;
 }
 .navbar .links ul:last-child li:hover svg {
-  color: #facc15;
+  color: white;
   transition: 0.3s;
 }
 .navbar .links ul li svg {
-  font-size: 24px;
-  color:#ffffff;
-}
+  font-size: 25px;
+  color:blue;
+} 
 @media (max-width: 1320px) {
   .navbar .logo {
     flex: none;
@@ -526,7 +535,7 @@ footer div ul a span {
   justify-content: center;
   align-items: center;
   padding: 50px 20px;
-  background-color: #089fdb;
+  background-color: skyblue;
 }
 .members .container {
   max-width: 1500px;

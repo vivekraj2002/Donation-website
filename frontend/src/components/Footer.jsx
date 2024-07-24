@@ -17,7 +17,7 @@ const Footer = () => {
         <h4>Support</h4>
         <ul>
           <li>Noida, India</li>
-          <li>enquiries@fosteringlinux.com</li>
+          <li>enquiries@Keenablefoundation.com</li>
           <li>+91-120-4217213</li>
         </ul>
       </div>

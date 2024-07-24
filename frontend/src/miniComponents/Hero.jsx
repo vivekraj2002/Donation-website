@@ -8,7 +8,7 @@ const Hero = () => {
         <h1>Volunteers</h1>
         <h3>Needed</h3>
         <p>
-        Your time and effort are valueable to us and the people we serve. Join us in making a positive impact and be part of something bigger.
+        Your time and effort are valuable to us and the people we serve. Join us in making a positive impact and be part of something bigger.
 
         </p>
         <Link to={"/donate"} className="btn">

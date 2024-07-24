@@ -10,12 +10,13 @@ const Members = () => {
     {
       id: 2,
       image: "/7.png",
-      title: "Rashmi chaudhary",
-    },
+      title: "Rashmi Chaudhary",
+ },
     {
       id: 3,
       image: "/manmeet.jpg",
-      title: "Manmeet Naarang",
+      title: "Manmeet Narang",
+  
     },
     {
       id: 4,
@@ -25,12 +26,12 @@ const Members = () => {
     {
       id: 5,
       image: "6.png",
-      title: "karandeep singh",
+      title: "Karandeep Singh",
     },
     {
       id: 6,
       image: "/m8.jpg",
-      title: "Vivek raj",
+      title: "Vivek Raj",
     },
     
   ];
