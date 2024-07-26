@@ -449,8 +449,11 @@ const Donate = () => {
           to: email,
           subject: "Donation Confirmation",
           text: `Dear ${name},
-          Thank you for your generous donation of ₹${amount} to Keenable foundation.Your support helps us continue our mission to Our Mission is to help all poors & helpless people.
-  Your reference number is ${reference}. Your contribution is greatly appreciated and will make a significant impact `,
+         Thank you for your generous donation of ₹${amount} 
+         to Keenable foundation.Your support helps us 
+         continue our mission to Our Mission is to
+         help all poors & helpless people. Your 
+         reference number is ${reference}. `
         },
         {
           withCredentials: true,
